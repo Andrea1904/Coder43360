@@ -1,0 +1,20 @@
+<div>
+    <h1>Usuario</h1>
+    <p>Nombre: {{user.name}}</p>
+    <p>Apellido: {{user.last_name}}</p>
+    <p>Edad: {{user.age}}</p>
+    <p>Correo: {{user.correo}}</p>
+    <p>Teléfono: {{user.phone}}</p>
+
+    <h1> Hola {{user.name}}</h1>
+    {{#if isAdmin}}
+        {{#each food}}
+           <div>
+            <p>{{this.name}}</p>
+            <p>{{this.price}}</p>
+           </div>
+        {{/each}}
+    {{else}}
+        <p>No tiene permisos</p>
+    {{/if}}
+</div>
