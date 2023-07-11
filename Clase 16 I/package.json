@@ -1,0 +1,17 @@
+{
+  "name": "clase-16-mongo-avanzado-i",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.11.2"
+  },
+  "description": ""
+}
